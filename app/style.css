@@ -1,0 +1,27 @@
+h1{
+    font-weight: bold;
+    color: rgb(13, 11, 11);
+    background-color: #6da99d;
+    text-align: center;
+ }
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     margin: 25px 0;
+     font-size: 18px;
+     text-align: center;
+ }
+ th, td {
+     padding: 12px 15px;
+   }
+   thead tr {
+     background-color: #009879;
+     color: #ffffff;
+     text-align: center;
+   }
+ tr {
+     transition: background-color 0.3s ease;
+ }
+ tr:nth-child(even) {
+     background-color: #f2f2f2;
+ }
